@@ -1,10 +1,6 @@
-let pkgs = import (builtins.fetchTarball {
-  name = "nixos-unstable-2018-09-12";
-  url = https://github.com/NixOS/nixpkgs/archive/19.03.tar.gz;
-  sha256 = "0q2m2qhyga9yq29yz90ywgjbn9hdahs7i8wwlq7b55rdbyiwa5dy";
-}) {};
+{ pkgs ? import <nixpkgs> {} }:
 
-in pkgs.stdenv.mkDerivation {
+pkgs.stdenv.mkDerivation {
   name = "technikatelier-website";
 
   src = ./.;
