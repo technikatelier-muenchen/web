@@ -4,8 +4,8 @@
 The site is build with [Hakyll](https://jaspervdj.be/hakyll/)
 
     ghc --make site.hs
-    site build
-    site server
+    ./site build
+    ./site server
 
 ### Build with nix
 

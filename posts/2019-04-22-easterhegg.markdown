@@ -13,5 +13,7 @@ mittels Open Source Soft- und Hardware zu steuern gehalten.
 
 > Außerdem noch ein kurzes Feedback zum letzjährugen Talk "Easterhegg 2018 - "Sicherheitschlösser" in Campingfahrzeugen und ihre versteckten Generalschlüssel"
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3M6ZBPCltUY"
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3M6ZBPCltUY"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
